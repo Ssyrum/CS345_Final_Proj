@@ -32,6 +32,11 @@ public class CharacterMovement : MonoBehaviour
 
     private Vector3 velocity = Vector3.zero;
 
+    public float initialSpeed = 5f;
+    public float runMultiplier;
+
+    public Animator animator;
+    
     PlayerInput input;
     Controls controls = new Controls();
 
@@ -42,17 +47,40 @@ public class CharacterMovement : MonoBehaviour
 
     private void Update()
     {
+        //
+        Vector2 newVel = Vector2.zero;
+
+        newVel.x = Input.GetAxisRaw("Horizontal");
+
+        animator.SetFloat("speed", newVel.sqrMagnitude);
+
+        hSpeed = Input.GetKey(KeyCode.LeftShift)? initialSpeed * runMultiplier : initialSpeed;
+
+        if (Input.GetKey(KeyCode.LeftShift) && charRB.velocity.x != 0)
+        {
+            animator.SetBool("run", true);
+        }
+        else
+        {
+            animator.SetBool("run", false);
+        }
+        //
+
         controls = input.GetInput();
         if (controls.JumpState && currentJumps < possibleJumps)
         {
             jump = true;
+            animator.SetBool("jump", true);
+            animator.SetBool("run", false);
         }
+        
     }
 
     private void FixedUpdate()
     {
         Move();
     }
+
 
     private void Move()
     {
@@ -74,6 +102,7 @@ public class CharacterMovement : MonoBehaviour
                 {
                     // on base
                     charRB.velocity = _velocity;
+                    
                 }
                 else
                 {
@@ -123,6 +152,7 @@ public class CharacterMovement : MonoBehaviour
         {
             onBase = true;
             currentJumps = 0;
+            animator.SetBool("jump", false);
         }
     }
 

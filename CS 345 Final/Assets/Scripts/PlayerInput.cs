@@ -15,7 +15,7 @@ public class PlayerInput : MonoBehaviour
     public Controls GetInput()
     {
         controls.HorizontalMove = Input.GetAxis(HorizontalControls);
-        controls.VerticalMove = Input.GetAxis(VerticalControls);
+        //controls.VerticalMove = Input.GetAxis(VerticalControls);
         controls.JumpState = Input.GetKeyDown(JumpButton);
         controls.AttackState = Input.GetKeyDown(AttackButton);
 
