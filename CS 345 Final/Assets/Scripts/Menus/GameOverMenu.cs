@@ -5,21 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class GameOverMenu : MonoBehaviour
 {
-    public GameObject gameOverMenuUI;
-
-    //gameOverMenuUI.SetActive(true);
-    //Time.timeScale = 0f;
-
     public void Restart()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
-
 
     public void LoadMenu()
     {
-        SceneManager.LoadScene("StartMenu");
-        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
     }
 
 }
