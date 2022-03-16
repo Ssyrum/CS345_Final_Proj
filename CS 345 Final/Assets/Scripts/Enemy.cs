@@ -11,8 +11,10 @@ public class Enemy : MonoBehaviour
     public GameObject target;
 
     private float targetDistance;
+    public float attackDistance;
 
     public Animator animator;
+    EnemyAttack enemyattack;
 
     // Start is called before the first frame update
     void Start()
@@ -41,6 +43,11 @@ public class Enemy : MonoBehaviour
 
     private void ChasePlayer()
     {
+        if (targetDistance < attackDistance)
+        {
+            GetComponent<EnemyAttack>().Attack();
+        }
+
         Vector2 newVel = Vector2.zero;
         if (transform.position.x < target.transform.position.x)
         {
