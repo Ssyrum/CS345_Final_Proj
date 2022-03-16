@@ -31,4 +31,5 @@ public class CameraController : MonoBehaviour
         //     transform.position = Vector2.Lerp(transform.position, playerXPos, cameraSpeed);
         // }
     }
+
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HealthPickup : MonoBehaviour
 {
-    [SerializeField] private float healthValue;
+    [SerializeField] private int healthValue;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
