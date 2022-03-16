@@ -20,6 +20,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         animator = GetComponentInChildren<Animator>();
+        animator.SetBool("hit", false);
     }
 
     // Update is called once per frame
@@ -70,7 +71,7 @@ public class Enemy : MonoBehaviour
     {
         if (col.tag == "AttackPoint")
         {
-            animator.SetTrigger("hit");
+            animator.SetBool("hit", true);
         }
     }
 }
