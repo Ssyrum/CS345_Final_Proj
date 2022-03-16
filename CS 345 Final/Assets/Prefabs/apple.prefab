@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3247843247402940143}
   - component: {fileID: 3423288838357041973}
-  - component: {fileID: 7729501916190763557}
+  - component: {fileID: 3950088262117846440}
+  - component: {fileID: 2842563900259591700}
   m_Layer: 0
   m_Name: apple
   m_TagString: Untagged
@@ -83,8 +84,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &7729501916190763557
-CircleCollider2D:
+--- !u!61 &3950088262117846440
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -97,5 +98,28 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 24.016068, y: 26.01}
+    newSize: {x: 24.016068, y: 26.01}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 13.005
+  m_Size: {x: 24.016068, y: 26.01}
+  m_EdgeRadius: 0
+--- !u!114 &2842563900259591700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5288390316836708020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b77f1606ca0ce8498bc0d4bc08b5aec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthValue: 3

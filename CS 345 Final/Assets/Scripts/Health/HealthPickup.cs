@@ -5,13 +5,21 @@ using UnityEngine;
 public class HealthPickup : MonoBehaviour
 {
     [SerializeField] private int healthValue;
+    PlayerHealth playerHealth;
+
+    private void Awake()
+    {
+        playerHealth = FindObjectOfType<PlayerHealth>();
+    }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (playerHealth.currentHealth < playerHealth.maxHealth)
         {
-            collision.GetComponent<PlayerHealth>().Heal(healthValue);
-            gameObject.SetActive(false);
+            Destroy(gameObject);
+            playerHealth.currentHealth = playerHealth.currentHealth + healthValue;
+            Debug.Log("triggering");
         }
     }
 }

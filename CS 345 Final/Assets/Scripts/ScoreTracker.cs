@@ -7,11 +7,12 @@ using UnityEngine.SceneManagement;
 public class ScoreTracker : MonoBehaviour
 {
 
-    public static int scoreValue = 900;
+    public static int scoreValue;
     private Text score;
     // Start is called before the first frame update
     void Start()
     {
+        scoreValue = 0;
         score = GetComponent<Text>();
     }
 
@@ -20,7 +21,7 @@ public class ScoreTracker : MonoBehaviour
     {
         score.text = "Score: " + scoreValue;
 
-        if (scoreValue >= 1000)
+        if (scoreValue >= 500)
         {
             SceneManager.LoadScene("Win");
         }

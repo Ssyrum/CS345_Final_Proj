@@ -246,7 +246,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Reach a score of 1000 to win!
+  m_text: Reach a score of 500 to win!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: db801d908c74cba429c7dac0498fd779, type: 2}
   m_sharedMaterial: {fileID: 998868035096192859, guid: db801d908c74cba429c7dac0498fd779, type: 2}
