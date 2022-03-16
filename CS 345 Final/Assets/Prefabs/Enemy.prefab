@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 986071996478803650}
   - component: {fileID: 986071996478803653}
   - component: {fileID: 986071996478803655}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 986071996488979132}
   - component: {fileID: 986071996488979075}
   - component: {fileID: 986071996488979073}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: EnemySprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 986071997501343585}
   - component: {fileID: 986071997501343587}
   - component: {fileID: 986071997501343586}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: EnemyAttackPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -298,7 +298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 986071998060334629}
   - component: {fileID: 986071998060334630}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
