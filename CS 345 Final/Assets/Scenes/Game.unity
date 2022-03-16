@@ -1037,7 +1037,7 @@ GameObject:
   - component: {fileID: 663375897}
   m_Layer: 6
   m_Name: Enemy
-  m_TagString: Player
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1066,10 +1066,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.07468486}
+  m_Offset: {x: 0.47814178, y: 1.6565208}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -1080,7 +1080,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.07, y: 0.08998823}
+  m_Size: {x: 2.663557, y: 3.5523996}
   m_EdgeRadius: 0
 --- !u!4 &663375901
 Transform:
@@ -2175,6 +2175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1602887427}
   - component: {fileID: 1602887428}
+  - component: {fileID: 1602887429}
   m_Layer: 6
   m_Name: AttackPoint
   m_TagString: Untagged
@@ -2222,6 +2223,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1602887429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602887426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 068375ad3a9430d4bae4e85b72c12981, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1674508185
 GameObject:
   m_ObjectHideFlags: 0
@@ -2930,6 +2943,10 @@ PrefabInstance:
     - target: {fileID: 5288390316836708020, guid: 75b21c6beb1f07f4db86b9e6d858adcf, type: 3}
       propertyPath: m_Name
       value: apple
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288390316836708020, guid: 75b21c6beb1f07f4db86b9e6d858adcf, type: 3}
+      propertyPath: m_TagString
+      value: Apple
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75b21c6beb1f07f4db86b9e6d858adcf, type: 3}
