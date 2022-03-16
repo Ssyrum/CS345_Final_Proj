@@ -21,7 +21,7 @@ public class ScoreTracker : MonoBehaviour
     {
         score.text = "Score: " + scoreValue;
 
-        if (scoreValue >= 500)
+        if (scoreValue >= 1000)
         {
             SceneManager.LoadScene("Win");
         }

@@ -246,7 +246,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Reach a score of 500 to win!
+  m_text: Reach a score of 1000 to win!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: db801d908c74cba429c7dac0498fd779, type: 2}
   m_sharedMaterial: {fileID: 998868035096192859, guid: db801d908c74cba429c7dac0498fd779, type: 2}
@@ -411,7 +411,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1966036584}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: InstructionMenu, Assembly-CSharp
         m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
@@ -695,7 +695,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Sprint - Left Shift
 
-    Attack - F
+    Attack - G
 
     Swap Weapons - 1,2,3,4,5'
   m_isRightToLeft: 0
@@ -1171,7 +1171,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1966036582}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d374957a33330d4438a28db862eee04b, type: 3}
+  m_Script: {fileID: 11500000, guid: bd4627ff74c3e3341bcd8b638de56017, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2087157585

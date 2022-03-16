@@ -26,7 +26,7 @@ public class PlayerAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.F))
+        if (Input.GetKey(KeyCode.G))
         {
             // animator.SetBool("attack", true);
             Attack();
@@ -48,11 +48,11 @@ public class PlayerAttack : MonoBehaviour
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
         
-        foreach (Collider2D enemy in hitEnemies)
-        {
-            Debug.Log("enemy");
-            enemy.GetComponent<EnemyHealth>().TakeDamage(attackDmg);
-        }
+        // foreach (Collider2D enemy in hitEnemies)
+        // {
+        //     Debug.Log("enemy");
+        //     enemy.GetComponent<EnemyHealth>().TakeDamage(attackDmg);
+        // }
     }
 
     void OnDrawGizmosSelected()
@@ -62,13 +62,5 @@ public class PlayerAttack : MonoBehaviour
 
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
-
-    // void OnTriggerEnter2D(Collider2D collider)
-    // {
-    //     if (collider.gameObject.tag == "Enemy" && animator.GetBool("attack"))
-    //     {
-    //         EnemyHealth.currentHealth -= 2f;
-    //     }
-    // }
 
 }
