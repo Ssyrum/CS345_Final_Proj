@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -11,17 +12,17 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth = 10f;
     }
-    void TakeDamage(int amount)
+    public void TakeDamage(int amount)
     {
         currentHealth -= amount;
 
         if (currentHealth <= 0)
         {
-            //show gameover screen
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 
-    void Heal(int amount)
+    public void Heal(int amount)
     {
         currentHealth += amount;
 
