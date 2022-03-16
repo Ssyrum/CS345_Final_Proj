@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: dca361dd4aed80f499416cec46741700
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6287822427645673305
+    second: rulerman_0
+  - first:
+      213: 3062701766011749277
+    second: rulerman_1
+  - first:
+      213: 4617548174327375623
+    second: rulerman_2
+  - first:
+      213: 2292646650170963
+    second: rulerman_3
+  - first:
+      213: -4157467688043648094
+    second: rulerman_4
+  - first:
+      213: 7444381682561111041
+    second: rulerman_5
+  - first:
+      213: -4241142325068931368
+    second: rulerman_6
+  - first:
+      213: -806313455231732070
+    second: rulerman_7
+  - first:
+      213: -7880061700603142007
+    second: rulerman_8
+  - first:
+      213: -3496322280692474035
+    second: rulerman_9
+  - first:
+      213: 5047678663481279393
+    second: rulerman_10
+  - first:
+      213: -4637643064603508656
+    second: rulerman_11
+  - first:
+      213: 8081295262679043344
+    second: rulerman_12
+  - first:
+      213: -8964898992975071325
+    second: rulerman_13
+  - first:
+      213: 4021454222405778270
+    second: rulerman_14
+  - first:
+      213: -3760575018754399472
+    second: rulerman_15
+  - first:
+      213: -8717190863617096125
+    second: rulerman_16
+  - first:
+      213: -8669611831772305595
+    second: rulerman_17
+  - first:
+      213: -1554154778133792834
+    second: rulerman_18
+  - first:
+      213: -95861542734339927
+    second: rulerman_19
+  - first:
+      213: -3610530269418002427
+    second: rulerman_20
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rulerman_0
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1694
+        width: 217
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0027df0da2db8a0800000000000000
+      internalID: -6287822427645673305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_1
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1694
+        width: 207
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9387108707e08a20800000000000000
+      internalID: 3062701766011749277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_2
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 1694
+        width: 299
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70769088993d41040800000000000000
+      internalID: 4617548174327375623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_3
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1724
+        width: 244
+        height: 212
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ecd256625280000800000000000000
+      internalID: 2292646650170963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_4
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1712
+        width: 5
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab6ef83a25bd46c0800000000000000
+      internalID: -4157467688043648094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_5
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1765
+        width: 7
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104da71c2b1cf4760800000000000000
+      internalID: 7444381682561111041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_6
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1785
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de5460a68f6425c0800000000000000
+      internalID: -4241142325068931368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_7
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 1635
+        width: 58
+        height: 99
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a967b4b3f266fc4f0800000000000000
+      internalID: -806313455231732070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_8
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 1697
+        width: 62
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980a36732a564a290800000000000000
+      internalID: -7880061700603142007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_9
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1694
+        width: 29
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f9a07f8619a7fc0800000000000000
+      internalID: -3496322280692474035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_10
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1717
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3ce1d2005fc0640800000000000000
+      internalID: 5047678663481279393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1342
+        width: 236
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050014b3438c3afb0800000000000000
+      internalID: -4637643064603508656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_12
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1342
+        width: 158
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d08019937862070800000000000000
+      internalID: 8081295262679043344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_13
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 1342
+        width: 206
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7b67c2dd7469380800000000000000
+      internalID: -8964898992975071325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_14
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 730
+        width: 294
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5bbdf60f431fc730800000000000000
+      internalID: 4021454222405778270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_15
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 730
+        width: 158
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013afefd1f0cfcbc0800000000000000
+      internalID: -3760575018754399472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_16
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 730
+        width: 275
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34682de5811560780800000000000000
+      internalID: -8717190863617096125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_17
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 730
+        width: 255
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54720baf8f95fa780800000000000000
+      internalID: -8669611831772305595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_18
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 680
+        width: 118
+        height: 134
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7fb5ba6788e6ae0800000000000000
+      internalID: -1554154778133792834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_19
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 438
+        width: 280
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0e2bd4f6e6baef0800000000000000
+      internalID: -95861542734339927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rulerman_20
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 442
+        width: 255
+        height: 238
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5086b8079d1d4edc0800000000000000
+      internalID: -3610530269418002427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
